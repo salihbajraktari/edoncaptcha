@@ -10,7 +10,7 @@
     "version": "1.0.0",
     "author": {
         "name": "Edon Bajrami",
-        "url": "https://github.com/jquery/jquery-color/blob/2.1.2/AUTHORS.txt"
+        "url": "https://github.com/DonDi1989/edoncaptcha"
     },
     "maintainers": [
         {
@@ -21,11 +21,9 @@
     "licenses": [
         {
             "type": "MIT",
-            "url": "https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt"
+            "url": "https://github.com/DonDi1989/edoncaptcha/MIT-LICENSE.txt"
         }
     ],
-    "docs": "https://github.com/jquery/jquery-color",
-    "download": "http://code.jquery.com/#color",
     "dependencies": {
         "jquery": ">=1.5"
     }
