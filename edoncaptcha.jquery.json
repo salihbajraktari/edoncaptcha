@@ -24,7 +24,7 @@
             "url": "https://github.com/DonDi1989/edoncaptcha/MIT-LICENSE.txt"
         }
     ],
-    "docs": "https://github.com/DonDi1989/edoncaptcha/README.md",
+    "docs": "https://github.com/DonDi1989/edoncaptcha/blob/master/README.md",
     "download": "https://github.com/DonDi1989/edoncaptcha",
     "dependencies": {
         "jquery": ">=1.5"
