@@ -10,7 +10,8 @@
     "version": "1.0.0",
     "author": {
         "name": "Edon Bajrami",
-        "url": "https://github.com/DonDi1989/edoncaptcha"
+        "url": "https://github.com/DonDi1989/edoncaptcha",
+        "email": "edonbajrami89@gmail.com"
     },
     "maintainers": [
         {
