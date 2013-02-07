@@ -1,13 +1,13 @@
 {
     "name": "edoncaptcha",
     "title": "edoncaptcha",
-    "description": "A simple, lightweight jQuery plugin for generating, implementing captcha inside a form",
+    "description": "A simple and lightweight jQuery plugin for generating and implementing captcha inside a form",
     "keywords": [
         "captcha",
         "logiccaptcha",
-        "questioncaptcha"
+        "forms"
     ],
-    "version": "1.0.0",
+    "version": "1.0.2",
     "author": {
         "name": "Edon Bajrami",
         "url": "https://github.com/DonDi1989/edoncaptcha",
