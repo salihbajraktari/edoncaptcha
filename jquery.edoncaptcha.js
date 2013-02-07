@@ -1,8 +1,8 @@
 (function($){
 
-  jQuery.fn.edoncaptcha = function(options){
+	jQuery.fn.edoncaptcha = function(options){
 
-		var element = this; 
+		var element = this; // referencen per forme
 		var submit = $(this).find('input[type=submit]');
 		$('<label id="edoncaptchatext"></label>').insertBefore(submit);
 		$('<input type="text" class="textbox" id="edoncaptchainput"/><br/><br/>').insertBefore(submit);
@@ -11,10 +11,14 @@
 		
 		$(element).find('input[type=submit]').attr('disabled','disabled'); 
 
-		// Initialization of variables
+		
 		var randomNr1 = 0; 
 		var randomNr2 = 0;
 		var totalNr = 0;
+		
+
+		
+		//var options = $.extend(defaults,options);
 
 		randomNr1 = Math.floor(Math.random()*10);
 		randomNr2 = Math.floor(Math.random()*10);
@@ -34,6 +38,19 @@
 				$(element).find('input[type=submit]').attr('disabled','disabled');
 			}
 			
+		});
+
+		$(document).keypress(function(e)
+		{
+			if(e.which==13)
+			{
+				if((element).find('input[type=submit]').is(':disabled')==true)
+				{
+					e.preventDefault();
+					return false;
+				}
+			}
+
 		});
 
 	};
